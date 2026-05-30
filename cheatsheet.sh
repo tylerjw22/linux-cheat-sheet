@@ -50,6 +50,7 @@ echo "find . -name file - search for file by name from here down"
 echo "grep text file - search for text inside file"
 echo "grep -r text . - search text in all files recursively"
 echo "which program - show where program is installed"
+echo "man <command> - shows the manual/documentation of a command"
 ;;
 
 4)
@@ -82,6 +83,9 @@ echo "top - basic system monitor"
 echo "df -h - disk usage readable"
 echo "free -h - RAM usage readable"
 echo "uptime - how long system has been running"
+echo "battery1 - check internal battery"
+echo "battery2 - check external battery"
+echo "sensors" - check sensors for all hardware
 ;;
 
 7)
@@ -122,7 +126,7 @@ echo "!! - run last command again"
 ;;
 
 11)
-echo "bye"
+echo "bye bye"
 ;;
 
 *)
